@@ -1205,6 +1205,27 @@ a {
 .cid-sFAyHxWQ1N .text-box .mbr-text {
   text-align: center;
 }
+.cid-sYSu7V7jUx {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-image: url("../../../assets/images/background1.jpg");
+}
+.cid-sYSu7V7jUx .mbr-overlay {
+  background-color: #ffffff;
+  opacity: 0.4;
+}
+.cid-sYSu7V7jUx form .mbr-section-btn {
+  text-align: center;
+  width: 100%;
+}
+.cid-sYSu7V7jUx form .mbr-section-btn .btn {
+  display: inline-flex;
+}
+@media (max-width: 991px) {
+  .cid-sYSu7V7jUx form .mbr-section-btn .btn {
+    width: 100%;
+  }
+}
 .cid-sY6TLtk4kp {
   padding-top: 5rem;
   padding-bottom: 5rem;
