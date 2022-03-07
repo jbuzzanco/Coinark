@@ -1049,6 +1049,7 @@ a {
 .cid-sFzxmVl7J6 .image-wrapper img {
   width: 100%;
   object-fit: cover;
+  border-radius: 5%;
 }
 @media (min-width: 992px) {
   .cid-sFzxmVl7J6 .text-wrapper {
@@ -1077,7 +1078,7 @@ a {
 .cid-sFzyUE9AaP .mbr-iconfont {
   display: block;
   font-size: 5rem;
-  color: #4479d9;
+  color: #6592e6;
   margin-bottom: 2rem;
 }
 .cid-sFzyUE9AaP .card-wrapper {
@@ -1221,7 +1222,7 @@ a {
   background-color: #ffffff;
 }
 .cid-sY6TLtk4kp .card-wrapper {
-  background: #0050f5;
+  background: #6592e6;
   border-radius: 4px;
 }
 @media (max-width: 767px) {
