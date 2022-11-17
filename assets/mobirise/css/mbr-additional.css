@@ -3931,8 +3931,16 @@ a {
     padding: 0 2rem;
   }
 }
-#custom-html-21 {
+#custom-html-2w {
   /* Type valid CSS here */
+}
+#custom-html-2w form {
+  background-color: #232323;
+  text-align: center;
+}
+#custom-html-2w p {
+  font-size: 60px;
+  color: #777;
 }
 .cid-t0KUVrkUCZ {
   padding-top: 2rem;
