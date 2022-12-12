@@ -55,7 +55,7 @@
     "imageResize": true,
     "favicon": "@PROJECT_PATH@/assets/images/coinark-circle-128x128.png",
     "screenshot": "screenshot.png",
-    "mbrsiteDomain": "eahr47p1hc",
+    "mbrsiteDomain": "jwasjeyadd",
     "robotsSwitcher": false,
     "sitemapSwitcher": true,
     "sitemapSwitcherAuto": "on",
@@ -67,6 +67,8 @@
     "witsec-white-label": true,
     "global_header_custom": "<!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-MFK7GFS');</script>\n<!-- End Google Tag Manager -->",
     "global_after_body": "<!-- Google Tag Manager (noscript) -->\n<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-MFK7GFS\"\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n<!-- End Google Tag Manager (noscript) -->",
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@",
     "global_footer_custom": "<script async src=\"https://assets.aweber-static.com/aweberjs/aweber.js\"></script>\n<script>\n    var AWeber = window.AWeber || [];\n    AWeber.push(function() {\n        AWeber.WebPush.init(\n            'BCfueb671aDF5wUMxcNTh2NwQF7r8tfGsRDFxgUYutDLouzVCYEBXQGj9EnJFOI7ZHNhoNXoHGqTfwWDhKkFGuA',\n            '618752d0-7475-4d58-915e-f4435c4e4922',\n            'a1b92c14-00de-46b4-a3de-653952ff1378'\n        );\n    });\n</script>"
   },
   "pages": {
