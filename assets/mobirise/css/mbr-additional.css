@@ -3922,9 +3922,14 @@ a {
 .cid-tsh5JS31fJ .row {
   align-items: center;
 }
-@media (max-width: 991px) {
+@media (max-width: 691px) {
   .cid-tsh5JS31fJ .image-wrapper {
     padding: 1rem;
+  }
+}
+@media (max-width: 780px) {
+  .cid-tsh5JS31fJ .image-wrapper {
+    display: none;
   }
 }
 @media (min-width: 992px) {

@@ -4502,8 +4502,13 @@
               "align-items": "center"
             },
             ".image-wrapper": {
-              "@media (max-width: 991px)": {
+              "@media (max-width: 691px)": {
                 "padding": "1rem"
+              }
+            },
+            "@media (max-width: 780px)": {
+              ".image-wrapper": {
+                "display": "none"
               }
             },
             ".text-wrapper": {
@@ -4528,7 +4533,9 @@
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
+          "_params": {},
+          "_PHPplaceholders": [],
+          "_JSplaceholders": []
         },
         {
           "_customTemplate": true,
