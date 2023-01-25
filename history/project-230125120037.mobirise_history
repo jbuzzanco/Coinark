@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "promo.html",
+    "currentPage": "legal.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -50,7 +50,7 @@
         "url": "https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i"
       }
     ],
-    "uniqCompNum": 146,
+    "uniqCompNum": 142,
     "versionPublish": "5.7.8",
     "imageResize": true,
     "favicon": "@PROJECT_PATH@/assets/images/coinark-circle-128x128.png",
@@ -67,7 +67,9 @@
     "witsec-white-label": true,
     "global_header_custom": "<!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-MFK7GFS');</script>\n<!-- End Google Tag Manager -->",
     "global_after_body": "<!-- Google Tag Manager (noscript) -->\n<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-MFK7GFS\"\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n<!-- End Google Tag Manager (noscript) -->",
-    "global_footer_custom": "<script async src=\"https://assets.aweber-static.com/aweberjs/aweber.js\"></script>\n<script>\n    var AWeber = window.AWeber || [];\n    AWeber.push(function() {\n        AWeber.WebPush.init(\n            'BCfueb671aDF5wUMxcNTh2NwQF7r8tfGsRDFxgUYutDLouzVCYEBXQGj9EnJFOI7ZHNhoNXoHGqTfwWDhKkFGuA',\n            '618752d0-7475-4d58-915e-f4435c4e4922',\n            'a1b92c14-00de-46b4-a3de-653952ff1378'\n        );\n    });\n</script>"
+    "global_footer_custom": "<script async src=\"https://assets.aweber-static.com/aweberjs/aweber.js\"></script>\n<script>\n    var AWeber = window.AWeber || [];\n    AWeber.push(function() {\n        AWeber.WebPush.init(\n            'BCfueb671aDF5wUMxcNTh2NwQF7r8tfGsRDFxgUYutDLouzVCYEBXQGj9EnJFOI7ZHNhoNXoHGqTfwWDhKkFGuA',\n            '618752d0-7475-4d58-915e-f4435c4e4922',\n            'a1b92c14-00de-46b4-a3de-653952ff1378'\n        );\n    });\n</script>",
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
@@ -8050,50 +8052,6 @@
         {
           "alias": false,
           "_styles": {
-            "padding-top": "(@paddingTop * 1rem)",
-            "padding-bottom": "(@paddingBottom * 1rem)",
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            ".mbr-fallback-image.disabled": {
-              "display": "none"
-            },
-            ".mbr-fallback-image": {
-              "display": "block",
-              "background-size": "cover",
-              "background-position": "center center",
-              "width": "100%",
-              "height": "100%",
-              "position": "absolute",
-              "top": "0",
-              "& when (@bg-type = 'video')": {
-                "background-image": "url(@fallBackImage)"
-              }
-            },
-            ".video-wrapper iframe": {
-              "width": "100%"
-            },
-            ".mbr-section-title, .mbr-section-subtitle, .mbr-text": {
-              "text-align": "center"
-            }
-          },
-          "_name": "video2",
-          "_sourceTheme": "mobirise5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"video2\" group=\"Images & Videos\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" plugins=\"PlayerVimeo\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"3\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"0\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Video\" min=\"4\" max=\"12\" step=\"1\" value=\"10\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Description\" name=\"showDescription\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" value=\"@PROJECT_PATH@/assets/images/background2.jpg\" title=\"Image\">\n            <input type=\"color\" value=\"#fff0b0\" title=\"Color\" selected>\n            <input type=\"video\" value=\"https://vimeo.com/428046504\" title=\"Video\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"@PROJECT_PATH@/assets/images/background13.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"mbr-section-head\" mbr-if=\"showTitle || showSubtitle\">\n            <h4 class=\"mbr-section-title mbr-fonts-style mb-0\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><b>How to use the promo code</b></h4>\n            <h5 class=\"mbr-section-subtitle mbr-fonts-style mb-0 mt-2\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\">Click on the video below to watch</h5>\n        </div>\n        <div class=\"row justify-content-center mt-4\">\n            <div class=\"col-12 col-md-{{textWidth}} video-block\">\n                <div mbr-video class=\"video-wrapper\">\n                    <iframe src=\"https://www.youtube.com/watch?v=ADRF-1O2rDE&loop=0&autoplay=0\"></iframe>\n                </div>\n                <p class=\"mbr-text pt-2 mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showDescription\" data-app-selector=\".mbr-text\"></p>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_anchor": "video2-3y",
-          "_isUserblock": true,
-          "_cid": "ttYklCeZ8E",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
             "& when not (@fullScreen)": {
               "padding-top": "(@paddingTop * 1rem)",
               "padding-bottom": "(@paddingBottom * 1rem)"
@@ -8298,68 +8256,6 @@
           "_global": false,
           "_once": false,
           "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "& when not (@fullScreen)": {
-              "padding-top": "(@paddingTop * 1rem)",
-              "padding-bottom": "(@paddingBottom * 1rem)"
-            },
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            ".mbr-fallback-image.disabled": {
-              "display": "none"
-            },
-            ".mbr-fallback-image": {
-              "display": "block",
-              "background-size": "cover",
-              "background-position": "center center",
-              "width": "100%",
-              "height": "100%",
-              "position": "absolute",
-              "top": "0",
-              "& when (@bg-type = 'video')": {
-                "background-image": "url(@fallBackImage)"
-              }
-            },
-            ".mbr-section-title": {
-              "color": "#fafafa",
-              "text-align": "center"
-            }
-          },
-          "_name": "content4",
-          "_sourceTheme": "mobirise5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content4\" group=\"Content\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" step=\"1\" value=\"10\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#232323\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"../_images/background13.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"title col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style align-center mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\"><b>Sign up for offer now.</b></h3>\n                <h4 class=\"mbr-section-subtitle align-center mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    You can arrange your articles with the Mobirise website design software.\n                </h4>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobiri.se\">LEARN MORE</a>\n                    <a class=\"btn btn-primary-outline\" href=\"https://mobiri.se\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "ttYkMuu1ev",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {},
-          "_anchor": "content4-40"
-        },
-        {
-          "_customTemplate": true,
-          "_afterNavbarItem": false,
-          "_customHTML": "<!-- AWeber Web Form Generator 3.0.1 -->\n<style type=\"text/css\">\n#af-form-1022284197 .af-body .af-textWrap{width:98%;display:block;float:none;}\n#af-form-1022284197 .af-body input.text, #af-form-1022284197 .af-body textarea{background-color:#FFFFFF;border-color:#000000;border-width:1px;border-style:solid;color:#6592E6;text-decoration:none;font-style:normal;font-weight:normal;font-size:16px;font-family:Arial, sans-serif;}\n#af-form-1022284197 .af-body input.text:focus, #af-form-1022284197 .af-body textarea:focus{background-color:#FFFAD6;border-color:#5E5E5E;border-width:1px;border-style:solid;}\n#af-form-1022284197 .af-body label.previewLabel{display:block;float:none;text-align:left;width:auto;color:#FFFFFF;text-decoration:none;font-style:normal;font-weight:normal;font-size:14px;font-family:Trebuchet MS, sans-serif;}\n#af-form-1022284197 .af-body{padding-bottom:15px;padding-top:15px;background-repeat:no-repeat;background-position:inherit;background-image:none;color:#000000;font-size:11px;font-family:Verdana, sans-serif;}\n#af-form-1022284197 .af-quirksMode{padding-right:15px;padding-left:15px;}\n#af-form-1022284197 .af-standards .af-element{padding-right:15px;padding-left:15px;}\n#af-form-1022284197 .buttonContainer input.submit{background-image:none;background-color:#6592E6;color:#FFFFFF;text-decoration:none;font-style:normal;font-weight:normal;font-size:16px;font-family:Verdana, sans-serif;}\n#af-form-1022284197 .buttonContainer input.submit{width:auto;}\n#af-form-1022284197 .buttonContainer{text-align:right;}\n#af-form-1022284197 button,#af-form-1022284197 input,#af-form-1022284197 submit,#af-form-1022284197 textarea,#af-form-1022284197 select,#af-form-1022284197 label,#af-form-1022284197 optgroup,#af-form-1022284197 option{float:none;position:static;margin:0;}\n#af-form-1022284197 div{margin:0;}\n#af-form-1022284197 form,#af-form-1022284197 textarea,.af-form-wrapper,.af-form-close-button,#af-form-1022284197 img{float:none;color:inherit;position:static;background-color:none;border:none;margin:0;padding:0;}\n#af-form-1022284197 input,#af-form-1022284197 button,#af-form-1022284197 textarea,#af-form-1022284197 select{font-size:100%;}\n#af-form-1022284197 select,#af-form-1022284197 label,#af-form-1022284197 optgroup,#af-form-1022284197 option{padding:0;}\n#af-form-1022284197,#af-form-1022284197 .quirksMode{width:100%;max-width:283px;}\n#af-form-1022284197.af-quirksMode{overflow-x:hidden;}\n#af-form-1022284197{background-color:#232323;border-color:#232323;border-width:1px;border-style:none;}\n#af-form-1022284197{display:block;}\n#af-form-1022284197{overflow:hidden;}\n.af-body .af-textWrap{text-align:left;}\n.af-body input.image{border:none!important;}\n.af-body input.submit,.af-body input.image,.af-form .af-element input.button{float:none!important;}\n.af-body input.submit{white-space:inherit;}\n.af-body input.text{width:100%;float:none;padding:2px!important;}\n.af-body.af-standards input.submit{padding:4px 12px;}\n.af-clear{clear:both;}\n.af-element label{text-align:left;display:block;float:left;}\n.af-element{padding-bottom:5px;padding-top:5px;}\n.af-form-wrapper{text-indent:0;}\n.af-form{box-sizing:border-box;text-align:left;margin:auto;}\n.af-quirksMode .af-element{padding-left:0!important;padding-right:0!important;}\n.lbl-right .af-element label{text-align:right;}\nbody {\n}\n#af-form-1022284197 .bodyText p {\n  margin: 0 0 1em !important;\n}\n\n#af-form-1022284197 .af-body {\n  padding-top:\n}\n\n#af-form-1022284197 .af-body .af-textWrap {\n  width: 100% !important;\n}\n\n#af-form-1022284197 .af-body .af-element {\n  padding-top: 0px!important;\n  padding-bottom: 0px!important;\n}\n#af-form-1022284197 .af-body .af-element:first-child {\n  margin-top: 0 !important;\n}\n#af-form-1022284197 .af-body label.previewLabel {\n  font-weight: 700 !important;\n  margin-top: 0.25rem !important;\n  margin-bottom: .25rem !important;\n}\n#af-form-1022284197 .af-body input.text,\n#af-form-1022284197 .af-body textarea {\n  border-radius: 3px !important;\n  box-sizing: border-box !important;\n  color: #444444;\n  font-size: 1rem;\n  margin-bottom: 0.75rem !important;\n  padding: 8px 12px !important;\n  -webkit-transition-duration: 0.3s;\n          transition-duration: 0.3s;\n}\n\n#af-form-1022284197 .af-body select {\n  width: 100%;\n}\n#af-form-1022284197 .af-body .af-dateWrap select {\n  width: 33%;\n}\n#af-form-1022284197 .choiceList-radio-stacked {\n  margin-bottom: 1rem !important;\n  width: 100% !important;\n}\n#af-form-1022284197 .af-element-radio {\n  margin: 0 !important;\n}\n#af-form-1022284197 .af-element-radio input.radio {\n  display: inline;\n  height: 0;\n  opacity: 0;\n  overflow: hidden;\n  width: 0;\n}\n#af-form-1022284197 .af-element-radio input.radio:checked ~ label {\n  font-weight: 700 !important;\n}\n#af-form-1022284197 .af-element-radio input.radio:focus ~ label {\n  box-shadow: inset 0 0 0 2px rgba(25,35,70,.25);\n}\n#af-form-1022284197 .af-element-radio input.radio:checked ~ label:before {\n  background-color: #777777;\n  border-color: #d6dee3;\n}\n#af-form-1022284197 .af-element-radio label.choice {\n  border: 1px solid #d6dee3;\n  border-radius: 3px !important;\n  display: block !important;\n  font-weight: 300 !important;\n  margin: 0.5rem 0 !important;\n  padding: 1rem 1rem 1rem 2rem !important;\n  position: relative;\n  -webkit-transition-duration: 0.3s;\n          transition-duration: 0.3s;\n}\n#af-form-1022284197 .af-element-radio label.choice:before {\n  background-color: #FFF;\n  border: 1px solid #d6dee3;\n  border-radius: 50%;\n  content: '';\n  height: 0.75rem;\n  margin-left: -1.3rem;\n  position: absolute;\n  -webkit-transition-duration: 0.3s;\n          transition-duration: 0.3s;\n  width: 0.75rem;\n}\n#af-form-1022284197 .buttonContainer {\n  box-sizing: border-box !important;\n}\n#af-form-1022284197 .af-footer {\n  box-sizing: border-box !important;\n}\n\n#af-form-1022284197 .af-footer p {\n  margin: 0 !important;\n}\n#af-form-1022284197 input.submit,\n#af-form-1022284197 #webFormSubmitButton {\n  border: none;\n  border-radius: 3px !important;\n  font-weight: bold;\n  margin-top: 0.5rem !important;\n  margin-bottom: 1rem !Important;\n  padding: 0.6rem 1.5rem !important;\n  -webkit-transition-duration: 0.3s;\n          transition-duration: 0.3s;\n  }\n#af-form-1022284197 input.submit:hover,\n#af-form-1022284197 #webFormSubmitButton:hover {\n  cursor: pointer;\n  opacity: 0.8;\n}\n\n#af-form-1022284197 input.text:hover {\n  cursor: pointer;\n  opacity: 0.8;\n}\n\n.poweredBy a,\n.privacyPolicy p {\n  color: #000000 !important;\n  font-size: 0.65rem !important;\n}\n\n</style>\n<form method=\"post\" class=\"af-form-wrapper\" accept-charset=\"UTF-8\" action=\"https://www.aweber.com/scripts/addlead.pl\">\n<div style=\"display: none;\">\n<input type=\"hidden\" name=\"meta_web_form_id\" value=\"1022284197\">\n<input type=\"hidden\" name=\"meta_split_id\" value=\"\">\n<input type=\"hidden\" name=\"listname\" value=\"awlist6389725\">\n<input type=\"hidden\" name=\"redirect\" value=\"https://trycoinark.com/promo-code.html\" id=\"redirect_c75b29bfc9383164c5c8b6b03f88146d\">\n\n<input type=\"hidden\" name=\"meta_adtracking\" value=\"$5_Free_with_any_Purchase\">\n<input type=\"hidden\" name=\"meta_message\" value=\"1\">\n<input type=\"hidden\" name=\"meta_required\" value=\"name,email,custom Phone Number\">\n\n<input type=\"hidden\" name=\"meta_tooltip\" value=\"name||Name,,email||jane.coin@example.com,,custom Phone Number||814-123-4567\">\n</div>\n<div id=\"af-form-1022284197\" class=\"af-form\"><div id=\"af-body-1022284197\" class=\"af-body af-standards\">\n<div class=\"af-element\">\n<label class=\"previewLabel\" for=\"awf_field-115241291\">Name</label>\n<div class=\"af-textWrap\">\n<input id=\"awf_field-115241291\" type=\"text\" name=\"name\" class=\"text\" value=\"Name\" onfocus=\" if (this.value == 'Name') { this.value = ''; }\" onblur=\"if (this.value == '') { this.value='Name';} \" tabindex=\"500\">\n</div>\n<div class=\"af-clear\"></div></div>\n<div class=\"af-element\">\n<label class=\"previewLabel\" for=\"awf_field-115241292\">Email</label>\n<div class=\"af-textWrap\"><input class=\"text\" id=\"awf_field-115241292\" type=\"text\" name=\"email\" value=\"jane.coin@example.com\" tabindex=\"501\" onfocus=\" if (this.value == 'jane.coin@example.com') { this.value = ''; }\" onblur=\"if (this.value == '') { this.value='jane.coin@example.com';} \">\n</div><div class=\"af-clear\"></div>\n</div>\n<div class=\"af-element\">\n<label class=\"previewLabel\" for=\"awf_field-115241293\">Cell Phone Number</label>\n<div class=\"af-textWrap\"><input type=\"text\" id=\"awf_field-115241293\" class=\"text\" name=\"custom Phone Number\" value=\"814-123-4567\" onfocus=\" if (this.value == '814-123-4567') { this.value = ''; }\" onblur=\"if (this.value == '') { this.value='814-123-4567';} \" tabindex=\"502\"></div>\n<div class=\"af-clear\"></div></div><div class=\"af-element buttonContainer\">\n<input name=\"submit\" class=\"submit\" type=\"submit\" value=\"Get $5 Bitcoin offer\" tabindex=\"503\">\n<div class=\"af-clear\"></div>\n</div>\n<div class=\"af-element tag\" style=\"display:none;\"><input id=\"awf_tag-115241295\" type=\"hidden\" name=\"tag_115241295\" value=\"free5\"></div>\n</div>\n</div>\n<div style=\"display: none;\"><img src=\"https://forms.aweber.com/form/displays.htm?id=jAxMTEwcLIyc7A==\" alt=\"\"></div>\n</form>\n[JS_CODE_0][JS_CODE_1]\n\n<!-- /AWeber Web Form Generator 3.0.1 -->",
-          "_customCSS": "/* Type valid CSS here */\n\nform {\n\n  background-color: #232323;\n  text-align: center;\n}\np {\n  font-size: 60px;\n  color: #777;\n}",
-          "alias": "code-editor",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "pro.custom-html",
-          "_sourceTheme": "mobirise5",
-          "_JSplaceholders": [
-            "<script type=\"text/javascript\">\n// Special handling for in-app browsers that don't always support new windows\n(function() {\n    function browserSupportsNewWindows(userAgent) {\n        var rules = [\n            'FBIOS',\n            'Twitter for iPhone',\n            'WebView',\n            '(iPhone|iPod|iPad)(?!.*Safari\\/)',\n            'Android.*(wv|\\.0\\.0\\.0)'\n        ];\n        var pattern = new RegExp('(' + rules.join('|') + ')', 'ig');\n        return !pattern.test(userAgent);\n    }\n\n    if (!browserSupportsNewWindows(navigator.userAgent || navigator.vendor || window.opera)) {\n        document.getElementById('af-form-1022284197').parentElement.removeAttribute('target');\n    }\n})();\n</script>",
-            "<script type=\"text/javascript\">\n    <!--\n    (function() {\n        var IE = /*@cc_on!@*/false;\n        if (!IE) { return; }\n        if (document.compatMode && document.compatMode == 'BackCompat') {\n            if (document.getElementById(\"af-form-1022284197\")) {\n                document.getElementById(\"af-form-1022284197\").className = 'af-form af-quirksMode';\n            }\n            if (document.getElementById(\"af-body-1022284197\")) {\n                document.getElementById(\"af-body-1022284197\").className = \"af-body inline af-quirksMode\";\n            }\n            if (document.getElementById(\"af-header-1022284197\")) {\n                document.getElementById(\"af-header-1022284197\").className = \"af-header af-quirksMode\";\n            }\n            if (document.getElementById(\"af-footer-1022284197\")) {\n                document.getElementById(\"af-footer-1022284197\").className = \"af-footer af-quirksMode\";\n            }\n        }\n    })();\n    -->\n</script>"
-          ],
-          "_PHPplaceholders": [],
-          "_params": {},
-          "_anchor": "custom-html-3z"
         },
         {
           "alias": false,
