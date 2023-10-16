@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "sent-message.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -71,14 +71,16 @@
     "dppsSwitcher": true,
     "spellingSwitch": true,
     "site_lang": "en",
-    "usedWebp": false
+    "usedWebp": false,
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Buy Bitcoin in Erie with cash | Coinark Bitcoin ATMs",
-        "meta_descr": "Buy Bitcoin in as little as 30 seconds with cash using Coinark Bitcoin and Cryptocurrency ATM Kiosks in Erie, PA. Find one near you!",
+        "title": "Buy Bitcoin at COINARK ATMs - Home - Coinark",
+        "meta_descr": "Buy Bitcoin in as little as 30 seconds. Coinark Bitcoin and Cryptocurrency ATM Kiosks are the safest, fastest and easiest way to buy, sell and exchange Bitcoin in Erie, Pennsylvania. Cash to Bitcoin.",
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
@@ -1302,7 +1304,7 @@
     },
     "404.html": {
       "settings": {
-        "title": "404 | Coinark Bitcoin ATMs",
+        "title": "404",
         "order": "12",
         "meta_descr": ""
       },
@@ -1880,9 +1882,8 @@
     },
     "sent-message.html": {
       "settings": {
-        "title": "Sent | Coinark Bitcoin ATMs",
-        "order": "11",
-        "meta_descr": ""
+        "title": "Sent",
+        "order": "11"
       },
       "components": [
         {
@@ -2412,9 +2413,9 @@
     },
     "crypto-wallets.html": {
       "settings": {
-        "title": "Crypto Wallets | Coinark Bitcoin ATMs",
+        "title": "Crypto Wallets - Coinark Bitcoin ATMs",
         "order": "10",
-        "meta_descr": "Discover some of the best crypto wallets tailored towards beginners. Wallets that you can use to store your own Bitcoin, so that you can take it with you anywhere."
+        "meta_descr": "Wallets that you can use to store your own Bitcoin, so that you can take it with you anywhere."
       },
       "components": [
         {
@@ -3378,9 +3379,9 @@
     },
     "legal.html": {
       "settings": {
-        "title": "Legal | Coinark Bitcoin ATMs",
+        "title": "Legal - Coinark",
         "order": "7",
-        "meta_descr": "Disclaimers and legal information from Coinark Bitcoin ATM Kiosks. Coinark Bitcoin ATMs are located across Erie, PA."
+        "meta_descr": "Disclaimers and legal information from Coinark Bitcoin ATM Kiosks."
       },
       "components": [
         {
@@ -3920,9 +3921,9 @@
     },
     "contact-support.html": {
       "settings": {
-        "title": "Contact & Support | Coinark Bitcoin ATMs",
+        "title": "Contact & Support - Coinark",
         "order": "6",
-        "meta_descr": "Contact Coinark Bitcoin ATMs to get support necessary to your bitcoin purchase or sale. We are here for you 24/7. Coinark Bitcoin ATMs are located across Erie, PA."
+        "meta_descr": "Contact Coinark Bitcoin ATMs and get any support necessary. We are here for you 24/7 before and after your first purchase."
       },
       "components": [
         {
@@ -4494,7 +4495,7 @@
     },
     "thankyou.html": {
       "settings": {
-        "title": "Thank You | Coinark Bitcoin ATMs",
+        "title": "Thank You - Coinark",
         "order": "4",
         "meta_descr": ""
       },
@@ -5289,7 +5290,7 @@
     },
     "promo-code.html": {
       "settings": {
-        "title": "Promo - Thanks | Coinark Bitcoin ATMs",
+        "title": "Promo - Thanks - Coinark",
         "order": "5",
         "meta_descr": ""
       },
@@ -6127,9 +6128,9 @@
     },
     "faq.html": {
       "settings": {
-        "title": "FAQs (Frequently Asked Questions) | Coinark Bitcoin ATMs",
+        "title": "Frequently Asked Questions - Coinark Bitcoin ATMs",
         "order": "2",
-        "meta_descr": "Answers to FAQs. Find answers to some common questions people asked when going to buy or sell bitcoin with cash. Coinark Bitcoin ATMs are located across Erie, PA."
+        "meta_descr": "Coinark Bitcoin ATMs FAQs. They are located across Erie, Pennsylvania. Find answers to some common questions people have when going to buy or sell bitcoin with cash at Coinark."
       },
       "components": [
         {
@@ -6709,7 +6710,7 @@
     },
     "promo.html": {
       "settings": {
-        "title": "Promo | Coinark Bitcoin ATMs",
+        "title": "Promo - Coinark",
         "order": "1",
         "meta_descr": "Exclusive, limited-time offer to potential customers in Erie, Pennsylvania. Sign up for text messages on this page to see claim. Subject to change or close at any time.",
         "meta_image": "@PROJECT_PATH@/assets/images/coinark-atm-graphic-1-1080x1080.png"
